@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetallePelicula"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+
+
+    <ImageView
+        android:id="@+id/detalle_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_margin="1dp"
+        android:src="@drawable/bonesheader"/>
+
+    <TextView
+        android:id="@+id/detalle_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BONES"
+        android:textSize="32sp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/amarillo"
+        android:fontFamily="sans-serif-black"
+        android:background="@color/fondo"/>
+
+    <TextView
+        android:id="@+id/detalle_sinopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/gray"
+        android:fontFamily="sans-serif"
+        android:background="@color/fondo"/>
+
+
+
+</LinearLayout>
